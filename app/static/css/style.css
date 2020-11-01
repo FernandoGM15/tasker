@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main{
+    flex: 1 0 auto;
+}
+
+header{
+    margin-bottom: 1rem;
+}
+.header-nav{
+    background: #2f31a3;
+}
+
+.header-nav a{
+    color: white;
+
+}
+
+.mo a{
+    padding: 1rem;
+    border-radius: 5px;
+}
+.mo a:hover{
+    background-color: #1e1f68;
+
+}
+
+.mo{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background: #2f31a3;
+    color: white;
+}
+.copyright{
+    background: #1e1f68;
+    margin-bottom: 0;
+}
+/*LOGIN SPECIFIC*/
+.login-card-title{
+    background-color: #00000080;
+    width: 100%;
+}
+.login-image{
+    max-width: 300px;
+}
+.login-header{
+    background: #2f31a3;
+    color: white;
+    width: 100%;
+    margin: 0%;
+    text-align: center;
+}
+.login-header a{
+    color: #FFFFFF;
+}

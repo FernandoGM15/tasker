@@ -1,7 +1,21 @@
-from flask import Flask, render_template, request
+'''
+Importing Libraries
+'''
+from flask import(
+    Flask, 
+    redirect,
+    render_template, 
+    request,
+    session,
+    url_for
+) 
 import random
+
 app = Flask(__name__)
 
+'''
+Defining our routes
+'''
 @app.route('/')
 def index():
     number = str(random.randrange(1,1000000))
@@ -12,13 +26,18 @@ def login():
     number = str(random.randrange(1,1000000))
     return render_template("login.html", number = number)
 
+@app.route('/logout')
+def logout():
+    return redirect(url_for('login'))
+
 @app.route('/user/tasks')
 def tasks():
     return render_template("tasks.html")
 
 @app.route('/admin/')
 def admin_home():
-    return render_template("admin_home.html")
+    number = str(random.randrange(1,1000000))
+    return render_template("admin_home.html", number = number)
 
 @app.route('/admin/employees')
 def admin_employees():
@@ -32,5 +51,6 @@ def admin_brnaches():
 def admin_tasks():
     return render_template("admin_tasks.html")
 
+
 if __name__ == "__main__":
-    app.run('0.0.0.0',debug = True)
+    app.run('0.0.0.0', debug = True)

@@ -43,13 +43,6 @@ footer{
     margin-bottom: 0;
 }
 /*LOGIN SPECIFIC*/
-.login-card-title{
-    background-color: #00000080;
-    width: 100%;
-}
-.login-image{
-    max-width: 300px;
-}
 .login-header{
     background: #2f31a3;
     color: white;
@@ -59,4 +52,8 @@ footer{
 }
 .login-header a{
     color: #FFFFFF;
+}
+/*admin_home specific*/
+.ah-gobutton{
+    width: 100%;
 }

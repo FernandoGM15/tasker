@@ -1,2 +1,2 @@
-*ESTE PROYECTO SE COME CON LOS PIES*
--Alebrijes y Rebujos (1984)
+**Mañana si hay examen como estaba previsto por favor díganle a sus compañeros no falten.…**
+*Master en Planeación C.P. Rafael Becerra Salazar  "Haz lo que puedas, con lo que tienes y en donde estás,ahora"*
